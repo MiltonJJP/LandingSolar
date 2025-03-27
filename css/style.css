@@ -1,0 +1,27 @@
+.body {
+    margin: 20px;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: #66A49F;
+    font-size: 35px;
+    border-bottom: 2px #278A7B;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-warning {
+    color: #DBC71F;
+}
+
+.text-info {
+    color: #1FBDDB;
+}
