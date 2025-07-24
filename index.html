@@ -2,209 +2,920 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Ventas</title>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Ventas</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#home">
-        <!-- <figure>
+      <!-- <figure>
             <img width="50" height="50" alt="Plaza Solas" src="./assets/img/logo.png">
         </figure> -->
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#home">inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link" href="#abaut">acerca de nosotros<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link " href="#contact">contactanos</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link " href="#contact">Ubicación</a>
-            </li>
-            <!-- <li class="nav-item">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#verticalCoolers">Enfriadores Verticales<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#airCurtains">Cortinas de aire<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#verticalExhibitor">Exhbidor Semivertical<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#displayCases">Vitrinas<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#frozenPreservative">Conservador de Congelados<span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#profesionalLine">Línea profesional<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#contact">contactanos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#contact">Ubicación</a>
+        </li>
+        <!-- <li class="nav-item">
                 <a class="nav-link" href="./screen/pokemon.html">video de muestra</a>
             </li> -->
-            <li class="nav-item">
-                <a class="nav-link" href="./screen/learnjavascript.html">Calculadora</a>
-            </li>
-        </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="./screen/learnjavascript.html">Calculadora</a>
+        </li>
+      </ul>
     </div>
-</nav>
+  </nav>
 
-<section id="home">
+  <section id="home">
     <article>
-        <div class="row">
-            <div class="col-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img height="500" src="./assets/img/equipos.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img height="500" src="./assets/img/refrieco.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img height="500" src="./assets/img/maxresdefault.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img height="500" src="./assets/img/slide1-1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                       data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                       data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img height="500" src="./assets/img/refrieco.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img height="500" src="./assets/img/maxresdefault.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img height="500" src="./assets/img/slide1-1.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
+      </div>
     </article>
-</section>
+  </section>
 
-    <section id="abaut">
-        <article>
-            <div class="card text-center">
-                <div class="card-body">
-                    <h5 class="card-title">Productos mas vendidos</h5>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <h6 class="card-title">Cortinas de aire</h6>
-                            <img style="height: 168px; width: 169px;" class="img-fluid"
-                                 src="./assets/img/muestra2.png"/>
-                            <br>
-                            <a target="_blank"
-                               href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
-                               <i class="bi bi-facebook" style="font-size:24px"></i>
-                            </a>
-                            <a target="_blank" href="https://www.tiktok.com/">
-                                <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
-                            </a>
-                            <a target="_blank" href="https://wa.me/527771575002">
-                                <i class="bi bi-whatsapp text-success" style="font-size:24px"></i>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <h6 class="card-title">Exhibidor semivertical</h6>
-                            <img style="height: 168px; width: 169px;" class="img-fluid"
-                                 src="./assets/img/muestra.png"/>
-                            <br>
-                            <a target="_blank"
-                               href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
-                               <i class="bi bi-facebook" style="font-size:24px"></i>
-                            </a>
-                            <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
-                                <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
-                            </a>
-                            <a target="_blank" href="https://wa.me/527771575002">
-                                <i class="bi bi-whatsapp text-success" style="font-size:24px"></i>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <h6 class="card-title">Línea profesional</h6>
-                            <img style="height: 168px; width: 169px;" class="img-fluid"
-                                 src="./assets/img/muestra3.png"/>
-                            <br>
-                            <a target="_blank"
-                               href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
-                               <i class="bi bi-facebook" style="font-size:24px"></i>
-                            </a>
-                            <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
-                                <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
-                            </a>
-                            <a target="_blank" href="https://wa.me/527771575002">
-                                <i class="bi bi-whatsapp text-success" style="font-size:24px"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer text-muted">
-                    Acerca de nosotros
-                </div>
-            </div>
-            <hr>
-        </article>
-    </section>
+  <!--enfriadores veritcales -->
+  <section id="verticalCoolers">
     <article>
-        <h2>Contacto</h2>
-
-    </article>
-    <section id="contact">
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@hotmail.com">
-            </div>
-            <div class="form-group">
-            <div class="col-12">
-                <div class="form-group">
-                    <label for="contactMessage">Mensaje:*</label>
-                    <textarea rows="3" name="contactMessage" id="contactMessage" class="form-control" required></textarea>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Enfriadores Verticales</h5>
+          <div class="row" style="justify-items: center">
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/verticalCoolers/verticalCoolers-sl.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CFX-SL</h5>
+                  <p class="card-text">Refrigerador vertical de 3 parrillas, ideal para exhibición con capacidad de
+                    217.5 litros y rango de temperatura de 2°C a 5°C.</p>
                 </div>
-                <button type="submit" class="btn btn-outline-success">
-                    Enviar mensaje
-                </button>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
             </div>
-        </form>
-    </section>
-    </div>
-    </div>
-    <article style="text-align: center;">
-        <h2>¡Aqui estamos!</h2>
-        <hr>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3775.7362286119746!2d-99.22738222480015!3d18.854392582305096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDUxJzE1LjgiTiA5OcKwMTMnMjkuMyJX!5e0!3m2!1ses!2smx!4v1742495833123!5m2!1ses!2smx"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </article>
-</section>
 
-<script>
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/verticalCoolers/verticalCoolers-3P.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CFX-64 3P</h5>
+                  <p class="card-text">Equipo amplio de triple puerta, 12 parrillas y 1295.6 litros de capacidad.
+                    Perfecto para alto volumen.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/verticalCoolers/verticalCoolers-2p.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CFX-24 2P</h5>
+                  <p class="card-text">Vitrina refrigerada de doble puerta con 8 parrillas y 464.5 litros, ideal para
+                    autoservicio o exhibición comercial.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/5277730605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/verticalCoolers/verticalCoolers-11.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CFX-11</h5>
+                  <p class="card-text">Compacto y funcional con 3 parrillas y 230.8 litros. Ideal para espacios
+                    reducidos sin sacrificar visibilidad.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </article>
+  </section>
+
+  <!--Cortinas de aire -->
+  <section id="airCurtains">
+    <article>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Cortinas de aire</h5>
+          <div class="row" style="justify-items: center">
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/airCurtains/airCurtains-3.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CMC-3</h5>
+                  <p class="card-text">Vitrina refrigerada compacta de 4 repisas y 262 litros. Ideal para exhibir productos listos para llevar 
+                    en espacios reducidos.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/airCurtains/airCurtains-4.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CMC-4</h5>
+                  <p class="card-text">Cortina de aire versátil con 378 litros de capacidad y diseño abierto para fácil acceso. 
+                    Perfecta para tiendas y cafeterías.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/airCurtains/airCurtains-6TL.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CMC-6TL</h5>
+                  <p class="card-text">Amplia vitrina de 643 litros con 4 repisas, diseñada para alto tráfico. 
+                    Máxima visibilidad y accesibilidad con enfriamiento uniforme.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </article>
+  </section>
+
+  <!--Exhibidor Semivertical -->
+  <section id="verticalExhibitor">
+    <article>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Exhibidor Semivertical</h5>
+          <div class="row" style="justify-items: center">
+            <div class="col-sm-5">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/verticalExhibitor/verticalExhibitor-2FT.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 260px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo 4FT</h5>
+                  <p class="card-text">Exhibidor semivertical compacto con 3 repisas y controlador digital. 
+                    Ideal para destacar productos refrigerados en espacios limitados.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-5">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/verticalExhibitor/verticalExhibitor-4ft.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 260px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo 2FT</h5>
+                  <p class="card-text">Exhibidor semivertical más amplio con frente de 131.4 cm, 3 repisas y control digital. 
+                    Perfecto para mayor visibilidad de productos frescos.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </article>
+  </section>
+
+  <!--Vitrinas -->
+  <section id="displayCases">
+    <article>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Vitrinas</h5>
+          <div class="row" style="justify-items: center">
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/displayCases/displayCases-120.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo VCC-120</h5>
+                  <p class="card-text">Vitrina refrigerada de 2 parrillas y 298.1 litros, ideal para exhibir productos frescos en 
+                    mostradores compactos.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/displayCases/displayCases-120m.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo VCC-120M</h5>
+                  <p class="card-text">Vitrina con 6 parrillas y capacidad de 513 litros para máxima visibilidad de productos y temperatura controlada.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/displayCases/displayCases-200.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo VCC-200</h5>
+                  <p class="card-text">Vitrina de gran tamaño con 6 parrillas y 565.5 litros. Perfecta para negocios que requieren amplia capacidad 
+                    y exhibición frontal.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a> 
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/displayCases/displayCases-200m.png" class="card-img-top" alt="..." s
+                tyle="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo VCC-200M</h5>
+                  <p class="card-text">Modelo de alta capacidad con 9 parrillas y 693 litros. Su diseño envolvente la hace ideal para, 
+                    pastelerías y tiendas gourmet.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+    </article>
+  </section>
+
+  <!--conservador de congelados -->
+  <section id="frozenPreservative">
+    <article>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Conservador de Congelados</h5>
+          <div class="row" style="justify-items: center">
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/frozenPreservative/frozenPerservative-05.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CAT-05</h5>
+                  <p class="card-text">Congelador con 3 cestos y capacidad de 131 litros. 
+                    Ideal para almacenaje compacto y control de temperatura entre -18°C a -24°C.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/frozenPreservative/frozenPerservative-11.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CAT-11</h5>
+                  <p class="card-text">Congelador de 4 cestos con 293 litros de capacidad, perfecto para almacenar grandes cantidades 
+                    con temperatura controlada entre -18°C a -24°C.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href=" #" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/frozenPreservative/frozenPerservative-15.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CCH-15</h5>
+                  <p class="card-text">Congelador de 380 litros con diseño robusto y temperatura ajustable entre -18°C a -24°C. 
+                    Ideal para negocios con alto volumen de almacenamiento.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href=" #" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/frozenPreservative/frozenPerservative-ct15.png" class="card-img-top" alt="..." 
+                style="height: 200px; width: 280px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo CTCC-15</h5>
+                  <p class="card-text">Congelador de 378 litros con 1 canasta. Ideal para un uso versátil en comercios con necesidad 
+                    de almacenamiento de productos congelados.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </article>
+  </section>
+
+  <!-- Linea profesional-->
+  <section id="profesionalLine">
+    <article>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Línea profesional</h5>
+          <div class="row" style="justify-items: center">
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/profesionalLine/profesionalLine-19.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo FSL-19</h5>
+                  <p class="card-text">Congelador con capacidad de 552 litros y temperatura ajustable entre -17°C y -25°C. 
+                    Acabado interior y exterior en blanco, ideal para mantener productos a baja temperatura.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527771575002">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px">  Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/profesionalLine/profesionalLine-19-Acero.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo FSL-19 (Acero inoxidable)</h5>
+                  <p class="card-text">Similar FSL-19, pero con un acabado en acero inoxidable y puerta sólida, 
+                    ofreciendo una apariencia más moderna. Capacidad de 552 litros con temperatura entre -17°C y -25°C.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/profesionalLine/profesionalLine-19-blanco.png" class="card-img-top" alt="..."
+                  style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo FSL-19(Puerta de vidrio)</h5>
+                  <p class="card-text">Congelador de 552 litros con puerta de vidrio, ideal para visibilidad de productos. 
+                    Temperatura controlada entre -17°C y -25°C. Perfecto para exhibir productos congelados.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px">  Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/profesionalLine/profesionalLine-19-puertas.png" class="card-img-top" alt="..." 
+                style="height: 200px; width: 270px;">
+                <div class="card-body">
+                  <h5 class="card-title">Modelo FSL-42</h5>
+                  <p class="card-text">Congelador de gran capacidad con 1243 litros y temperatura ajustable entre -17°C y -25°C. 
+                    Hecho en acero inoxidable con puerta de vidrio, ideal para grandes volúmenes de almacenamiento en comercios.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a target="_blank" href="https://wa.me/527773605097">
+                      <i class="bi bi-whatsapp text-success" style="font-size:24px"> Hablanos...</i>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a target="_blank"
+                      href="https://www.facebook.com/Cin%C3%A9polis-Temixco-Plaza-Solaz-103800454778630">
+                      <i class="bi bi-facebook" style="font-size:24px"> Buscanos...</i>
+                    </a>
+                  </li>
+                  <!-- <li class="list-group-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCKMTRs8g_YKt-5EnRXmEdfw">
+                      <i class="bi bi-tiktok text-dark" style="font-size:24px"></i>
+                    </a>Sigenos...
+                  </li> -->
+                </ul>
+                <!-- <div class="card-body">
+                  <a href="#" class="card-link">Ficha Tecnica</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </article>
+  </section>
+
+  <article>
+    <h2>Contacto</h2>
+
+  </article>
+  <section id="contact">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@hotmail.com">
+      </div>
+      <div class="form-group">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="contactMessage">Mensaje:*</label>
+            <textarea rows="3" name="contactMessage" id="contactMessage" class="form-control" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-success">
+            Enviar mensaje
+          </button>
+        </div>
+    </form>
+  </section>
+  </div>
+  </div>
+  <article style="text-align: center;">
+    <h2>¡Aqui estamos!</h2>
+    <hr>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3775.7362286119746!2d-99.22738222480015!3d18.854392582305096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDUxJzE1LjgiTiA5OcKwMTMnMjkuMyJX!5e0!3m2!1ses!2smx!4v1742495833123!5m2!1ses!2smx"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </article>
+  </section>
+
+  <script>
     feather.replace()
-</script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-</script>
-<script data-search-pseudo-elements defear
-        src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js"
-        crossorigin="anonymous"></script>
-<script src="./js/practica01.js"></script>
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+  <script data-search-pseudo-elements defear
+    src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+  <script src="./js/practica01.js"></script>
 
 </body>
 
